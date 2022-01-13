@@ -54,11 +54,12 @@ p {
   color: var(--accent-color);
 }
 
-.logo > span {
+.header .logo > span {
   color: #000;
 }
 
-.header-nav {
+.header-nav,
+.auth-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -142,7 +143,7 @@ p {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-title-color);
@@ -188,6 +189,10 @@ p {
 }
 
 /* --------PROJECT--------- */
+
+.footer .logo > span {
+  color: #fff;
+}
 
 .project-btn {
   font-style: inherit;
